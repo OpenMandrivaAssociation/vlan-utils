@@ -3,7 +3,7 @@
 Summary:	Utilities for controlling vlans
 Name:		%{rname}-utils
 Version:	1.8
-Release:	%mkrel 4
+Release:	%mkrel 5
 License:	GPL
 Group:		System/Kernel and hardware
 URL:		http://scry.wanfear.com/~greear/vlan.html 
