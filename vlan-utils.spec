@@ -13,6 +13,7 @@ BuildRequires:	kernel-headers >= 2.4.14 lynx
 Requires:	kernel >= 2.4.14
 Provides:	vconfig
 Obsoletes:	vconfig
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 Virtual networking refers to the ability of switches and routers to
