@@ -3,14 +3,13 @@
 Summary:	Utilities for controlling vlans
 Name:		%{rname}-utils
 Version:	1.8
-Release:	%mkrel 5
+Release:	%mkrel 6
 License:	GPL
 Group:		System/Kernel and hardware
 URL:		http://scry.wanfear.com/~greear/vlan.html 
 Source0:	http://scry.wanfear.com/~greear/vlan/%{rname}.%{version}.tar.bz2
 Patch0:		vlan-1.6-mdkconf.patch
 BuildRequires:	kernel-headers >= 2.4.14 lynx
-Requires:	kernel >= 2.4.14
 Provides:	vconfig
 Obsoletes:	vconfig
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
