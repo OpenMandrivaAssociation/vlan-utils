@@ -1,0 +1,10 @@
+--- Makefile	2003-09-30 23:04:14.000000000 +0200
++++ Makefile.oden	2008-12-23 15:43:26.000000000 +0100
+@@ -21,7 +21,6 @@
+ 
+ $(VCONFIG): $(VLAN_OBJS)
+ 	$(CC) $(CCFLAGS) $(LDFLAGS) -o $(VCONFIG) $(VLAN_OBJS) $(LDLIBS)
+-	$(STRIP) $(VCONFIG)
+ 
+ macvlan_config: macvlan_config.c
+ 	$(CC) $(CCFLAGS) $(LDFLAGS) -o $@ $<

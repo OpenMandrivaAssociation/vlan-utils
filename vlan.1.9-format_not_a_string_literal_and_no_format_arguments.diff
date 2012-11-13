@@ -1,0 +1,11 @@
+--- vconfig.c	2005-07-29 19:38:42.000000000 +0200
++++ vconfig.c.oden	2008-12-23 15:41:08.000000000 +0100
+@@ -63,7 +63,7 @@ static char* usage = 
+ "            is OFF.\n";
+ 
+ void show_usage() {
+-   fprintf(stdout,usage);
++   fprintf(stdout, "%s", usage);
+ }
+ 
+ int hex_to_bytes(char* bytes, int bytes_length, char* hex_str) {
