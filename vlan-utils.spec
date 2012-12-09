@@ -3,7 +3,7 @@
 Summary:	Utilities for controlling vlans
 Name:		%{rname}-utils
 Version:	1.9
-Release:	%mkrel 5
+Release:	%mkrel 7
 License:	GPL
 Group:		System/Kernel and hardware
 URL:		http://www.candelatech.com/~greear/vlan.html 
@@ -68,3 +68,62 @@ rm -rf %{buildroot}
 %doc CHANGELOG contrib README vlan.html
 /sbin/*
 %{_mandir}/man8/vconfig.8*
+
+
+%changelog
+* Fri May 06 2011 Oden Eriksson <oeriksson@mandriva.com> 1.9-5mdv2011.0
++ Revision: 670771
+- mass rebuild
+
+* Sat Dec 04 2010 Oden Eriksson <oeriksson@mandriva.com> 1.9-4mdv2011.0
++ Revision: 608126
+- rebuild
+
+* Sun Mar 14 2010 Oden Eriksson <oeriksson@mandriva.com> 1.9-3mdv2010.1
++ Revision: 519080
+- rebuild
+
+* Thu Sep 03 2009 Christophe Fergeau <cfergeau@mandriva.com> 1.9-2mdv2010.0
++ Revision: 427495
+- rebuild
+
+* Tue Dec 23 2008 Oden Eriksson <oeriksson@mandriva.com> 1.9-1mdv2009.1
++ Revision: 317921
+- 1.9
+- new url
+- fix build with -Werror=format-security (P1)
+- don't strip
+- use %%ldflags
+
+* Wed Jun 18 2008 Thierry Vignaud <tv@mandriva.org> 1.8-7mdv2009.0
++ Revision: 225920
+- rebuild
+
+* Tue Jan 15 2008 Thierry Vignaud <tv@mandriva.org> 1.8-6mdv2008.1
++ Revision: 152812
+- remove useless kernel require
+- kill re-definition of %%buildroot on Pixel's request
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Wed Sep 19 2007 Antoine Ginies <aginies@mandriva.com> 1.8-5mdv2008.0
++ Revision: 91217
+- increase release an rebuild to fix lost in space 32bits package
+
+
+* Sat Mar 17 2007 Oden Eriksson <oeriksson@mandriva.com> 1.8-4mdv2007.1
++ Revision: 145487
+- Import vlan-utils
+
+* Sat Mar 17 2007 Oden Eriksson <oeriksson@mandriva.com> 1.8-4mdv2007.1
+- use the %%mrel macro
+- bunzip patches
+
+* Sun Jan 01 2006 Mandriva Linux Team <http://www.mandrivaexpert.com/> 1.8-3mdk
+- Rebuild
+
+* Sun Jan 23 2005 Per Øyvind Karlsen <peroyvind@linux-mandrake.com> 1.8-2mdk
+- rebuild
+- fix summary-ended-with-dot
+
