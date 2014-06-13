@@ -3,7 +3,7 @@
 Summary:	Utilities for controlling vlans
 Name:		%{rname}-utils
 Version:	1.9
-Release:	11
+Release:	12
 License:	GPL
 Group:		System/Kernel and hardware
 URL:		http://www.candelatech.com/~greear/vlan.html 
