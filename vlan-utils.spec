@@ -6,7 +6,7 @@ Version:	1.9
 Release:	19
 License:	GPL
 Group:		System/Kernel and hardware
-URL:		http://www.candelatech.com/~greear/vlan.html 
+URL:		https://www.candelatech.com/~greear/vlan.html 
 Source0:	http://www.candelatech.com/~greear/vlan/vlan.%{version}.tar.gz
 Patch0:		vlan-1.6-mdkconf.patch
 Patch1:		vlan.1.9-format_not_a_string_literal_and_no_format_arguments.diff
