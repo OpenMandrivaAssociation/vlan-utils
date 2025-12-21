@@ -11,6 +11,7 @@ Source0:	http://www.candelatech.com/~greear/vlan/vlan.%{version}.tar.gz
 Patch0:		vlan-1.6-mdkconf.patch
 Patch1:		vlan.1.9-format_not_a_string_literal_and_no_format_arguments.diff
 Patch2:		vlan.1.9-nostrip.diff
+BuildRequires:	make
 BuildRequires:	kernel-headers lynx
 Provides:	vconfig
 Obsoletes:	vconfig
